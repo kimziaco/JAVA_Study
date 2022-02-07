@@ -15,6 +15,8 @@ public class 알람시계 {
 		} else if (M < 45) {
 			H = H - 1;
 			M = M + 15;
+		} else {
+			M = M - 45;
 		}
 		System.out.println(H + " " + M);
 	}
